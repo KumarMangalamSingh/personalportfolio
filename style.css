@@ -1,0 +1,105 @@
+ /* navigation bar STYLING  */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: rgb(228, 227, 233);
+     color: white;
+ }
+
+ body nav {
+     background-color: black;
+
+ }
+
+ body nav ul {
+     margin: 0;
+     padding: 0;
+     display: inline;
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .web {
+     width: 5px;
+     height: 75px;
+     padding-top: 14px;
+ }
+
+ body ul li {
+     list-style: none;
+     margin: 0 23px;
+     color: rgb(112, 151, 214);
+     font-size: xx-large;
+ }
+
+ body ul li:hover {
+     color: rgb(245, 126, 0);
+     font-size: 4.5rem;
+ }
+
+ /* MAIN STYLI */
+ main {
+     height: 80vh;
+ }
+
+ .content {
+     display: flex;
+     justify-content: space-between;
+     margin: 23px 0;
+ }
+
+ .left {
+
+     color: black;
+     padding-left: 555px;
+     padding-top: 100px;
+     font-size: 3.5rem;
+ }
+
+ .con2 {
+     padding-top: 15px;
+     font-size: 3rem;
+     color: rgb(220, 13, 13);
+     font-style: none;
+
+ }
+
+ .CON {
+     font-style: normal;
+     padding-top: 40px;
+     width: 20vw;
+     color: rgb(113, 3, 3);
+
+ }
+
+ .logo {
+     display: inline;
+ }
+
+ .image {
+     display: inline;
+     justify-content: space-around;
+     mix-blend-mode: multiply;
+     padding-right: 400px;
+     padding-top: 300px;
+
+ }
+
+ .colour {
+     color: rgb(2, 2, 160);
+     font-size: 4rem;
+ }
+
+ /* footer styling */
+ footer {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 60px;
+     height: 180px;
+     background-color: rgb(3, 2, 2);
+     font-size: 1.5rem;
+     color: rgb(226, 30, 47);
+ }
